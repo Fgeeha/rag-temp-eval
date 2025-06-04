@@ -1,0 +1,19 @@
+[project]
+name = "rag-temp-eval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.0.12",
+    "faiss-cpu>=1.11.0",
+    "langchain-community>=0.3.24",
+    "langchain-ollama>=0.3.3",
+    "tiktoken>=0.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+]
